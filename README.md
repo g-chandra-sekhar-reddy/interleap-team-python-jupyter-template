@@ -1,77 +1,59 @@
-Student Guide: Jupyter Notebook Activities and Project
-Welcome! This guide will help you set up your environment, complete the activities, and work on the project exercises. Please follow the steps below carefully.
+# interleap-team-python-jupyter-template
 
-1. Setting Up Codespace for Jupyter Notebook
-Prerequisites
-A GitHub account.
+## Student Guide: Jupyter Notebook Activities and Project
 
-Basic familiarity with using GitHub and Codespaces.
+Welcome! This repository contains activities and exercises to help you learn Jupyter Notebook and Matplotlib.
 
-Steps to Create a Codespace
-Open Repository
-Navigate to this repository in your GitHub account.
+---
 
-Create Codespace
-Click the Code button, select the Codespaces tab, then click Create codespace on main.
+## 1. Setting Up Codespace for Jupyter Notebook
 
-Install Jupyter Notebook Extension
+### Prerequisites
+- A GitHub account.
+- Basic familiarity with GitHub and Codespaces.
 
-Once the Codespace opens, go to the Extensions view (sidebar, square icon with four boxes).
+### Steps to Create a Codespace
+1. Navigate to this repository in your GitHub account.
+2. Click the **Code** button and select the **Codespaces** tab.
+3. Click **Create codespace on main**.
+4. Once the Codespace opens, install the **Jupyter Notebook** extension (by Microsoft) via the Extensions sidebar.
+5. Open any `.ipynb` file and select the Python kernel (e.g., `Python 3 (ipykernel)`) at the top-right of the notebook interface.
 
-Search for Jupyter Notebook (by Microsoft) and install it.
+---
 
-Set Kernel to Python Environment
+## 2. Activities
 
-Open any .ipynb file from the repository inside Codespace.
+These activities will help you get comfortable with Jupyter Notebooks and Matplotlib before starting the exercises.
 
-At the top-right corner of the notebook interface, click the Kernel dropdown.
+| Activity                     | Description                                  | File Location                              |
+|------------------------------|----------------------------------------------|--------------------------------------------|
+| Basics of Jupyter Notebook    | Learn basic navigation and Python coding in notebooks | `activities/1.1-basic-jupyter-notebook.ipynb` |
+| Introduction to Matplotlib    | Create basic visualizations with Matplotlib | `activities/1.2-using-matplotlib.ipynb`       |
 
-Select the Python environment created in your Codespace (e.g., Python 3 (ipykernel)).
+---
 
-This ensures your notebooks can run Python code properly.
+## 3. Exercises on Matplotlib
 
-2. Activities
-Overview
-Before starting the project exercises, complete these activities to familiarize yourself with Jupyter Notebook and Matplotlib basics.
+- Found in the `src` folder.
+- Follow instructions inside each notebook.
+- Complete the exercises by adding code in the cells provided.
 
-Available Activities
-Activity	Description	File Location
-Basics of Jupyter Notebook	Navigate and write basic Python code in Jupyter Notebook	activities/1.1-basic-jupyter-notebook.ipynb
-Introduction to Matplotlib	Explore Matplotlib and create basic visualizations	activities/1.2-using-matplotlib.ipynb
+---
 
-How to Complete Activities
-Open the activity files from the activities folder in your Codespace.
+## 4. Submitting Your Work
 
-Follow the instructions provided in the notebook cells.
+1. Save completed notebooks with outputs visible in the `src` folder.
+2. Commit and push changes to your GitHub repository.
+3. Ensure all outputs are executed before submission.
 
-Experiment with the examples and try additional code as needed.
+---
 
-3. Exercises on Matplotlib
-Overview
-The src folder contains a set of Matplotlib exercises designed to test your understanding and creativity.
+## 5. Notes
 
-How to Complete the Project
-Open the src folder in your Codespace.
+- Don’t be afraid to make mistakes — it’s part of learning!
+- You can always create a new Codespace if needed.
+- Reach out if you get stuck or need help.
 
-Carefully read the instructions for each exercise.
+---
 
-Complete the exercises by writing your solutions in the provided code cells.
-
-4. Submitting Your Work
-Submission Guidelines
-Save your completed exercise files with your solutions in the src folder.
-
-Ensure all cells are executed and outputs are visible in the notebooks.
-
-Push your updated exercise files to the repository.
-
-5. Final Notes
-Don’t worry about making errors — mistakes are part of learning!
-
-Feel free to make as many errors as needed; you can always create a fresh Codespace.
-
-The goal is to become comfortable with the code and tools.
-
-If you get stuck or need assistance, feel free to ask for help.
-
-interleap-team-python-jupyter-template
+Happy coding! 🚀
